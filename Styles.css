@@ -1,0 +1,59 @@
+.gradient-animation{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+#Title{
+    height: 100%;
+    overflow: auto;
+}
+#Features{
+    height: 100%;
+    overflow: auto;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+.a{
+    display: flex;
+    border-radius: 70px;
+    text-decoration: none;
+    left: 10px;
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+}
+a{
+    color: beige;
+    background-color: #ff4c68;
+}
+ .girl{
+    display: block;
+    border-radius: 50px;
+    padding: 10px;
+    left: 10px;
+    
+    text-decoration: none;
+ }
+ .py-5{
+    padding-top: 0!important;
+ }
+ .container col-xl-10 col-xxl-8 px-4 pt-5{
+    padding-top: 0!important;
+ }
