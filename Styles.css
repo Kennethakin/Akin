@@ -1,7 +1,7 @@
 .g{
     background: linear-gradient(500deg, #0000ff, #008080, #ffffff);
     background-size: contain;
-    animation: gradient-animation 5s ease infinite;
+    animation: g 5s ease infinite;
 }
 @keyframes g{
     0%{
