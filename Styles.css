@@ -1,9 +1,9 @@
-.gradient-animation{
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 10s ease infinite;
+.g{
+    background: linear-gradient(500deg, #0000ff, #008080, #ffffff);
+    background-size: contain;
+    animation: gradient-animation 5s ease infinite;
 }
-@keyframes gradient-animation{
+@keyframes g{
     0%{
         background-position: 0% 50%;
     }
